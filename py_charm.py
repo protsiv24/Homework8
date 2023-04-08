@@ -4,3 +4,4 @@ def count_same_digits(number):
         digit = number % 10
         digit_counts[digit] += 1
         number //= 10
+    return sum(count > 1 for count in digit_counts)
