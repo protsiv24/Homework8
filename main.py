@@ -7,3 +7,12 @@ def mane_function(s):
         return s2
     s1 = "qwerty"
     s2 = mane_function(s1)  # s2 = 'ytrewq'
+
+
+    def test_function():
+      even_numbers = []
+      for num in range(1, 21):
+        if num % 2 == 0:
+
+
+    
