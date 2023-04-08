@@ -5,6 +5,8 @@ def count_same_digits(number):
         digit_counts[digit] += 1
         number //= 10
     return sum(count > 1 for count in digit_counts)
+
+
 def test_function():
     even_numbers = []
     for num in range(1, 21):
@@ -13,3 +15,6 @@ def test_function():
     return even_numbers
 result = test_function()
 print(result)
+
+
+
