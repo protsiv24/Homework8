@@ -5,5 +5,6 @@ def mane_function(s):
         s2 = s2 + s[i]
         i = i - 1
         return s2
-    s1 = "qwerty"
-    s2 = mane_function(s1)  # s2 = 'ytrewq'
+s1 = "qwerty"
+s2 = mane_function(s1)  # s2 = 'ytrewq'
+print("s2 = ", s2)
